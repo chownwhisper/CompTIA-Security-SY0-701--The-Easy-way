@@ -1,0 +1,47 @@
+Zero Trust Basics
+
+    Traditional Networks: Many networks assume things inside are safe, but this leaves gaps in security.
+    Zero Trust: A security model where everything must be verified, and nothing is trusted by default—whether it's people, devices, or systems.
+    It protects everything and everyone, enforcing strict controls like authentication, monitoring, and encryption.
+
+Network Planes (How a Network Works in Layers)
+
+    Split into Planes: Networks are divided into layers for better control and organization:
+        Data Plane: Handles actual network traffic, like sending and receiving data (e.g., NAT, forwarding packets).
+        Control Plane: Makes decisions on how data should move, like defining rules, routes, or packet handling.
+
+Physical Architecture
+
+    Extend the Network's Structure: Break the network into smaller, focused parts and use special devices to improve security.
+    For example, using a dedicated device or software for specific tasks like controlling data flow.
+
+Controlling Trust
+
+    Dynamic Identity: Think about who or what is asking to access resources and from where:
+        Is it a trusted user? A specific location? A known device?
+    Smaller Access Area: Limit what someone or something can access to reduce risks (like only letting them access what they need).
+    Rules + Identity: Combine identity checks with pre-set rules for smarter access decisions.
+
+Security Zones
+
+    Networks are grouped into "zones":
+        Untrusted Zones: For external or unknown traffic.
+        Trusted Zones: For internal, secure areas (like an internal office network).
+    Example: You could block unknown users from trusted internal resources.
+
+Policy Enforcement Point (PEP)
+
+    This is the "Gatekeeper":
+        It decides who/what can enter, and what they can do (e.g., block, allow, or monitor actions).
+        It applies policies (rules) to both people and systems.
+
+Decision Process
+
+    Policy Decision Point (PDP): Decides based on rules (like, "Is this user allowed?").
+    Policy Enforcement Point (PEP): Executes the decision (e.g., allow or deny).
+
+Zero Trust Across Layers
+
+    Integration Across Planes: Zero Trust applies everywhere: to data, devices, systems, and processes.
+    Each part of the system (subject, system, resources) communicates securely while rules ensure no one gets excessive access.
+
