@@ -1,0 +1,54 @@
+Categories of Controls
+
+    Technical: Controls that involve technology, like software and hardware.
+    Managerial: Controls based on rules, policies, and management practices.
+    Operational: Controls that involve day-to-day procedures and practices.
+    Physical: Controls that provide physical barriers to protect assets.
+
+Types of Controls
+
+Each category includes different types of controls that serve various purposes:
+
+    Preventive: Designed to stop a security problem before it happens.
+        Examples:
+            Technical: Firewall (blocks unauthorized access).
+            Managerial: Onboarding policy (sets up new hires securely).
+            Operational: Guard shack (guards control entry).
+            Physical: Door lock (locks to prevent unauthorized entry).
+
+    Deterrent: Aimed at discouraging or deterring potential threats.
+        Examples:
+            Technical: Splash screen (warns users about restricted access).
+            Managerial: Demotion (potential consequence for misuse).
+            Operational: Reception desk (visible presence discourages intruders).
+            Physical: Warning signs (informs about restricted area).
+
+    Detective: Used to detect or identify security incidents after they occur.
+        Examples:
+            Technical: System logs (record activities for later review).
+            Managerial: Review login reports (check for unusual logins).
+            Operational: Property patrols (look for suspicious activities).
+            Physical: Motion detectors (detect movement).
+
+    Corrective: Intended to fix issues after a security incident happens.
+        Examples:
+            Technical: Backup recovery (restore lost data).
+            Managerial: Policies for reporting issues (help employees report problems).
+            Operational: Contact authorities (inform law enforcement if needed).
+            Physical: Fire extinguisher (puts out fires).
+
+    Compensating: Extra controls that reduce risk when primary controls can’t be fully effective.
+        Examples:
+            Technical: Block instead of patch (temporary fix to prevent access).
+            Managerial: Separation of duties (different people handle different tasks).
+            Operational: Require multiple security staff (more coverage for security).
+            Physical: Power generator (backup power source).
+
+    Directive: Provide instructions or guidance on how to act securely.
+        Examples:
+            Technical: File storage policies (rules for storing files).
+            Managerial: Compliance policies (sets guidelines to follow regulations).
+            Operational: Security policy training (trains staff on policies).
+            Physical: Sign: Authorized Personnel Only (indicates restricted areas).
+
+In short, each category (Technical, Managerial, Operational, Physical) has controls that are preventive, deterrent, detective, corrective, compensating, and directive to cover various security needs. Each type helps protect against, identify, respond to, or prevent issues in a slightly different way.
