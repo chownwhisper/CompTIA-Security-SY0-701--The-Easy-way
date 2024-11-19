@@ -1,0 +1,62 @@
+1. RADIUS (Remote Authentication Dial-In User Service)
+
+    What it is: A networking protocol used for centralized authentication, authorization, and accounting (AAA).
+    How it works:
+        A client (e.g., a user trying to log into a network) sends authentication credentials to a RADIUS server.
+        The RADIUS server checks the credentials against a database and either approves or denies access.
+    Common Use:
+        Wi-Fi network authentication.
+        VPN access.
+
+2. TACACS+ (Terminal Access Controller Access-Control System Plus)
+
+    What it is: Another AAA protocol, similar to RADIUS, but offers more flexibility and granularity.
+    Differences from RADIUS:
+        TACACS+ separates authentication, authorization, and accounting into distinct processes, making it more flexible.
+        It encrypts the entire session (not just the password, as RADIUS does).
+    Common Use:
+        Used in enterprise networks for secure management of network devices (e.g., routers, switches).
+
+3. X.509 Certificates
+
+    What it is: A digital certificate format used in Public Key Infrastructure (PKI) systems to verify identities.
+    Components:
+        Contains a public key, information about the entity (e.g., device, website, or person), and the digital signature of the Certificate Authority (CA).
+    Purpose:
+        Proves the identity of an entity during authentication.
+        Commonly used in TLS/SSL protocols (e.g., for HTTPS websites).
+
+4. PKI (Public Key Infrastructure)
+
+    What it is: A framework for creating, managing, and using digital certificates and public-key encryption.
+    How it works:
+        A Certificate Authority (CA) issues certificates to individuals or devices, binding their identity to a public key.
+        When a certificate is presented (e.g., during authentication), the recipient can validate it using the CA’s signature.
+    Common Use:
+        Secure web communication (HTTPS), VPN authentication, email encryption, and digitally signing documents.
+
+5. RBAC (Role-Based Access Control)
+
+    What it is: An access control methodology where permissions are assigned to roles, and users are assigned to those roles.
+    How it works:
+        Example:
+            Role: "Manager" → Permissions: View and edit reports.
+            Role: "Employee" → Permissions: View reports only.
+        Users are assigned roles instead of direct permissions (e.g., Bob = Manager role).
+    Advantages:
+        Simplifies administration by grouping permissions under roles.
+        Scales well in organizations with many users.
+
+6. ABAC (Attribute-Based Access Control)
+
+    What it is: An advanced access control methodology that uses attributes to define permissions instead of fixed roles.
+    How it works:
+        Attributes can include:
+            User Attributes: Department, job title, location.
+            Resource Attributes: Sensitivity level of a document.
+            Environmental Attributes: Time of day, IP address.
+        Example:
+            "Grant access to Finance reports if User.Department = 'Finance' AND it’s during work hours."
+    Advantages:
+        Offers fine-grained control.
+        Adapts to dynamic environments where roles alone are insufficient.
