@@ -1,4 +1,5 @@
 CompTIA Security+ SY0-701 — The Easy Way
+
 Welcome to my CompTIA Security+ SY0-701 tutorial! 🎉 This is a personal project where I’m learning the topics and sharing what I’ve understood in a beginner-friendly way.
 
 🚧 Work in Progress
