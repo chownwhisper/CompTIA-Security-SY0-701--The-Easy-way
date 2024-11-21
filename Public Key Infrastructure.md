@@ -1,0 +1,10 @@
+# Encryption Concepts
+
+| **Topic**                  | **Key Points**                                                                                                      | **Examples**                                           |
+|----------------------------|----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
+| **Public Key Infrastructure (PKI)** | - Framework for managing **digital certificates**. <br> - Components: **CA**, **RA**, **CRL**, and **Key Management Systems**.<br> - Binds public keys to identities. | - Certificate Authority (CA) issuing SSL/TLS certificates (e.g., DigiCert).<br> - X.509 certificates for HTTPS. |
+| **Symmetric Encryption**   | - **Single shared key** for encryption/decryption.<br> - Fast and computationally efficient.<br> - **Key distribution challenge** due to shared secrets. | - AES (Advanced Encryption Standard).<br> - DES, RC4. |
+| **Asymmetric Encryption**  | - Uses a **key pair**: Public and Private keys.<br> - Public key encrypts, private key decrypts.<br> - Based on **mathematical trapdoor functions**.<br> - High computational overhead. | - RSA, ECC, DSA algorithms.<br> - Secure email (PGP).<br> - TLS/SSL handshake for secure web communications. |
+| **The Key Pair**           | - Pair of keys generated together: **Public key** (shared) and **Private key** (kept secret).<br> - Relies on randomization and large prime numbers.<br> - Used for encryption and digital signatures. | - RSA: Key generation using two large primes.<br> - ECC: Uses elliptic curve cryptography for smaller key sizes. |
+| **Key Escrow**             | - **Third party** holds private keys for recovery or monitoring.<br> - Ensures business continuity or government access.<br> - Creates a single point of failure and risk of misuse. | - Enterprise key recovery for employee data.<br> - Government-mandated escrow for law enforcement decryption. |
+
